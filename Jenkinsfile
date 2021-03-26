@@ -13,7 +13,7 @@ pipeline {
       stage("Build image") {
             steps {
                 script {
-                    myapp = docker.build("wisleycouto/dockerrepro:${env.BUILD_ID}")
+                    myapp = docker.build("96819405/dockerhub:${env.BUILD_ID}")
                 }
             }
         }
