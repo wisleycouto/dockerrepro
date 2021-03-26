@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: hello-whale-container
-        image: wisleycouto/dockerrepro:latest
+        image: 96819405/dockerrepro:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
